@@ -1,0 +1,10 @@
+name: Test3
+
+on:
+  workflow_dispatch:
+
+jobs:
+  My-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
