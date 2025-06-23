@@ -1,7 +1,6 @@
 name: Test333
 
-on:
-  check_run:
+on: create
 
 jobs:
   My-GitHub-Actions:
