@@ -1,10 +1,10 @@
-name: Test1
+name: Test2
 
 on:
   workflow_dispatch:
 
 jobs:
-  Explore-GitHub-Actions:
+  My-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: "Hello"
+      - run: 'Hello'
