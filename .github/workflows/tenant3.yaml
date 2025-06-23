@@ -2,10 +2,6 @@ name: Test333
 
 on:
   check_run:
-    types:
-      - completed
-      - created
-      - requested_action
 
 jobs:
   My-GitHub-Actions:
