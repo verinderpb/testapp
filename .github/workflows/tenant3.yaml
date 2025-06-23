@@ -1,7 +1,11 @@
-name: Test33
+name: Test333
 
 on:
-  workflow_dispatch:
+  check_run:
+    types:
+      - completed
+      - created
+      - requested_action
 
 jobs:
   My-GitHub-Actions:
